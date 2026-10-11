@@ -1,0 +1,15 @@
+name: RoyaSocialBots
+version: 1.3.0
+main: com.roya.socialbots.RoyaSocialBots
+api-version: '1.21'
+author: ROYA
+description: Custom 3D animated Discord and YouTube mascots with automatic resource-pack prompt for Paper 1.21.11.
+commands:
+  socialbots:
+    description: Manage ROYA's social mascots.
+    usage: /socialbots <set|link|reload>
+    permission: royasocialbots.admin
+permissions:
+  royasocialbots.admin:
+    description: Allows configuring ROYA social bots.
+    default: op

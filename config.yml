@@ -1,0 +1,37 @@
+# Change these links to your own Discord invite and YouTube channel.
+bots:
+  discord:
+    enabled: true
+    name: "&9&lDISCORD &f✦ &7اضغط للانضمام"
+    world: world
+    x: 0.5
+    y: 80.0
+    z: 0.5
+    link: "https://discord.gg/CHANGE_ME"
+    message: "&9Discord &7- اضغط على الرابط للانضمام: &f{url}"
+  youtube:
+    enabled: true
+    name: "&c&lYOUTUBE &f▶ &7اضغط للمشاهدة"
+    world: world
+    x: 3.5
+    y: 80.0
+    z: 0.5
+    link: "https://www.youtube.com/@CHANGE_ME"
+    message: "&cYouTube &7- اضغط على الرابط لفتح القناة: &f{url}"
+
+settings:
+  # Seconds between checking whether the bots still exist.
+  respawn-check-seconds: 10
+  # Protects the invisible clickable anchors and their custom model displays.
+  invulnerable: true
+
+# The plugin asks players to download the pack automatically when they join.
+# IMPORTANT: url must be a publicly reachable DIRECT HTTPS download URL for the ZIP.
+resource-pack:
+  enabled: true
+  url: ""
+  # SHA-1 hash of the exact ZIP file (40 hexadecimal characters). Recommended.
+  sha1: "543cc7ef1a43aaeb0f7894d89bf9ba4c76906b2f"
+  # If true, players must accept the pack to join. Keep false while testing.
+  required: false
+  prompt: "&dحمّل حزمة ROYA لإظهار الشخصيات ثلاثية الأبعاد!"
